@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="uworldtoanking.css" />
+  </head>
+
+  <body>
+    <div id="popup-content">
+      <div class="flex-container">
+        <button id="all-ids-button">Get All</button>
+        <button id="incorrect-ids-button">Get Incorrect</button>
+        <button id="correct-ids-button">Get Correct</button>
+      </div>
+      
+      <div>
+        <p>Copy and paste this into "anki-uworld-to-filtered-deck":</p>
+        <div class="flex-container">
+          <input type="text" placeholder="Tags go here" id="question-ids-csv">
+          <button id="csv-copy-button">Copy</button>
+        </div>
+      </div>
+
+      <div>
+        <p>Copy and paste this into Anki browse filter:</p>
+        <div class="flex-container">
+          <input type="text" placeholder="Tags go here" id="question-ids-filter">
+          <button id="filter-copy-button">Copy</button>
+        </div>
+      </div>
+    </div>
+    
+    <div id="error-content" class="hidden">
+      <p>Can't find any tags...</p>
+    </div>
+    
+    <script src="uworldtoanking.js"></script>
+  </body>
+</html>

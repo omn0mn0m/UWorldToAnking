@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "UWorldToAnking",
+    "version": "1.0",
+    "description": "Converts a the UWorld results table to Anki tags for filtering the Anking deck.",
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+    "permissions": ["activeTab"],
+    "browser_action": {
+        "default_icon": "icons/beasts-48.png",
+        "default_title": "UWorldToAnking",
+        "default_popup": "popup/uworldtoanking.html"
+    }
+}
